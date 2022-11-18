@@ -80,4 +80,4 @@ def home(api):
 		return 'Api disponible'
 	else:
 		return 'Servicio no encontrado'
-app.run()
+app.run(port=8989)
